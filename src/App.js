@@ -5,7 +5,7 @@ import Checklist from './Checklist'
 
 function App() {
   return (
-      <div classNAme='App'>
+      <div className='App'>
           <Checklist />
       </div>
   );
