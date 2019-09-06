@@ -11,8 +11,9 @@ function ChecklistItems(props) {
                 Search Bar
             </div>
             <div>
-                <p>Name</p>
-                <p>Price</p>
+                <span className='col s6'>Name</span>
+                <span className='col s6'>Price</span>
+                <br/>
                 <Goods />
                 <Goods />
             </div>

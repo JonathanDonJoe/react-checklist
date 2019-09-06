@@ -5,8 +5,9 @@ import Checklist from './Checklist'
 
 function App() {
   return (
-    // <h1>Sanity Check</h1>
-    <Checklist />
+      <div classNAme='App'>
+          <Checklist />
+      </div>
   );
 }
 

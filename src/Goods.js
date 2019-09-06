@@ -5,30 +5,33 @@ function Goods(props) {
 
 
     return(
-        <div>
+        <div className='col s12'>
             <div>
-                <p>
+                <strong>Sporting Goods</strong>
+            </div>
+            <div>
+                <span className='col s6'>
                     Baseball
-                </p>
-                <p>
+                </span>
+                <span className='col s6'>
                     $9.99
-                </p>
+                </span>
             </div>
             <div>
-                <p>
+                <span className='col s6'>
                     Basketball
-                </p>
-                <p>
+                </span>
+                <span className='col s6'>
                     $29.99
-                </p>
+                </span>
             </div>
             <div>
-                <p>
+                <span className='col s6'>
                     Football
-                </p>
-                <p>
+                </span>
+                <span className='col s6'>
                     $49.99
-                </p>
+                </span>
             </div>
         </div>
     )

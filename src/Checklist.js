@@ -15,8 +15,10 @@ class Checklist extends Component {
     render() {
         console.log('Render');
         return(
-            <div>
-                <ChecklistItems />
+            <div className='container'>
+                <div className='row'>
+                    <ChecklistItems />
+                </div>
             </div>
         )
     }
